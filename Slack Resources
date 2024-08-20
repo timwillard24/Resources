@@ -1,0 +1,1743 @@
+
+
+
+soa
+  7:13 AM
+joined #03-resources. Also, Admin - Do Not DM
+ and 15 others joined.
+
+
+Anthony Taylor
+  6:53 AM
+@channel Great first class... a lot of lecture.  This channel is where I will share with you resources to help you along the way.  These will be "extra" resources, not required but highly recommended.   I try to keep them short reads.  For today, I want to share with you the Classroom Norms.   This is a document I have put together to help you feel more confident with your new classroom and how I operate it.   There is some very nice resources mixed in it, so please take a few minutes and check it out.
+GitHubGitHub
+Classroom_norms/00-Flight-Manual at main · lordoetl/Classroom_norms
+Manual for incoming students. Contribute to lordoetl/Classroom_norms development by creating an account on GitHub. (100 kB)
+https://github.com/lordoetl/Classroom_norms/tree/main/00-Flight-Manual
+
+:+1:
+3
+:eyes:
+1
+
+
+
+Anthony Taylor
+  7:17 PM
+https://google.github.io/deepvariant/
+google.github.iogoogle.github.io
+DeepVariant Blog
+DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next-generation DNA sequencing data.
+
+
+Alexander Williamson
+  8:43 PM
+https://www.markdownguide.org/basic-syntax/
+markdownguide.orgmarkdownguide.org
+Basic Syntax | Markdown Guide
+The Markdown elements outlined in the original design document.
+
+
+Anthony Taylor
+  9:04 PM
+https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+
+Anthony Taylor
+  6:46 AM
+@channel Future Pythonistas!
+Get ready to embark on an exhilarating journey through the world of Python, one of the most popular and versatile programming languages out there!
+As we dive into the core of Python, you'll find it's not just a language—it's a key to unlocking creativity and problem-solving skills you never knew you had. Python's elegant syntax is designed to be readable and straightforward, which means you'll spend less time wrestling with complex code and more time creating, exploring, and bringing your ideas to life.
+Throughout this bootcamp, you'll learn to think like a programmer, tackle real-world problems, and build a solid foundation that will serve you in whatever tech field you choose to pursue. Whether it's data analysis, web development, artificial intelligence, or just automating the boring stuff, Python is your steadfast companion.
+So gear up, charge your laptops, and get ready to code your heart out. With every line of Python you write, you're not just learning a language, you're gaining a superpower.
+Let's Python!
+	python variables
+Python input() Function
+w3schools.comw3schools.com
+Python Variables
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/python/python_variables.asp
+
+w3schools.comw3schools.com
+Python input() Function
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/python/ref_func_input.asp
+
+:+1:
+2
+:fire:
+1
+:superhero:
+1
+
+
+
+Anthony Taylor
+  10:15 PM
+@channel I hope you're all eager for another exciting day of Python! Last time, we laid a strong foundation, and now it's time to build on it. This week, we're diving into some essential programming concepts that will expand your toolkit: Lists will help you organize data, and if-else statements will allow you to make decisions in your code. We'll ensure your programs run smoothly with input validation using isdigit() and type(). We'll explore membership and identity operators to compare data effectively. Get ready to master for and while loops, including nested loops, and learn how to break out of loops when needed. These skills will empower you to write more complex and efficient programs. Let's keep up the momentum and enjoy the journey together!
+	Conditional Statements in Python
+	Python Lists
+	Python - Loops
+realpython.comrealpython.com
+Conditional Statements in Python – Real Python
+In this step-by-step tutorial you'll learn how to work with conditional ("if") statements in Python. Master if-statements and see how to write complex decision making code in your programs. (267 kB)
+https://realpython.com/python-conditional-statements/
+
+w3schools.comw3schools.com
+Python Lists
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/python/python_lists.asp
+
+tutorialspoint.comtutorialspoint.com
+Python - Loops
+Python - Loops - In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on. There may be a situation when you need to execute a block of code several number of times. (7 kB)
+https://www.tutorialspoint.com/python/python_loops.htm
+
+:+1:
+1
+
+
+
+HOWARD PHILIP DIXON
+  3:50 PM
+Thank you Anthony. I will take a look tonight
+
+
+Mark Amanfu
+  6:18 PM
+joined #03-resources.
+
+
+Mark Amanfu
+  6:26 PM
+Class Objectives
+By the end of today's class, you will be able to:
+Refactor an existing if-elif-else statement into a match case structure.
+Create and manipulate Python dictionaries and effectively iterate through them using items(), keys(), and values().
+Demonstrate the ability to iterate through complex nested data structures, such as lists within lists and lists of dictionaries.
+Extract specific information from nested dictionaries.
+Use list comprehension and list operations to process data and perform calculations.
+Useful Links:
+Match Statements
+Dictionaries
+Dictionary Methods
+List Comprehensions
+Python documentationPython documentation
+4. More Control Flow Tools
+As well as the while statement just introduced, Python uses a few more that we will encounter in this chapter. if Statements: Perhaps the most well-known statement type is the if statement. For exa...
+Python documentationPython documentation
+5. Data Structures
+This chapter describes some things you’ve learned about already in more detail, and adds some new things as well. More on Lists: The list data type has some more methods. Here are all of the method...
+Python documentationPython documentation
+5. Data Structures
+This chapter describes some things you’ve learned about already in more detail, and adds some new things as well. More on Lists: The list data type has some more methods. Here are all of the method...
+:pray:
+1
+
+
+
+Mark Amanfu
+  6:37 PM
+Rock Paper Scissors Solution:
+# Incorporate the random library
+import random
+
+# Print Title
+print("Let's Play Rock Paper Scissors!")
+
+# Specify the three options
+options = ["r", "p", "s"]
+
+# Create a continuous loop so the user can play multiple rounds
+while True:
+    # User Selection
+    user_choice = input("Make your Choice: (r)ock, (p)aper, (s)cissors? ")
+
+    # Check if the user selected a valid choice from the options list
+    if user_choice in options:
+        # Generate the computer selection
+        computer_choice = random.choice(options)
+
+        # Create a variable called user_full_choice to hold the text of the 
+        # full word for the user's choice by using a conditional
+        if user_choice == 'r':
+            user_full_choice = 'rock'
+        elif user_choice == 'p':
+            user_full_choice = 'paper'
+        else:
+            user_full_choice = 'scissors'
+
+        # Run Conditionals
+
+        # First check if there is a tie
+        if user_choice == computer_choice:
+            print(f"You both chose {user_full_choice}!")
+            print("A smashing tie!")
+        
+        # Check if the user picked rock and computer picked paper
+        elif (user_choice == "r" and computer_choice == "p"):
+            print("You chose rock. The computer chose paper.")
+            print("Sorry. You lose.")
+
+        # Check if the user picked rock and computer picked scissors
+        elif (user_choice == "r" and computer_choice == "s"):
+            print("You chose rock. The computer chose scissors.")
+            print("Yay! You won.")
+
+        # Check if the user picked paper and computer picked scissors
+        elif (user_choice == "p" and computer_choice == "s"):
+            print("You chose paper. The computer chose scissors.")
+            print("Sorry. You lose.")
+
+        # Check if the user picked paper and computer picked rock
+        elif (user_choice == "p" and computer_choice == "r"):
+            print("You chose paper. The computer chose rock.")
+            print("Yay! You won.")
+
+        # Check if the user picked scissors and computer picked paper
+        elif (user_choice == "s" and computer_choice == "p"):
+            print("You chose scissors. The computer chose paper.")
+            print("Yay! You won.")
+
+        # Check if the user picked scissors and computer picked rock
+        elif (user_choice == "s" and computer_choice == "r"):
+            print("You chose scissors. The computer chose rock.")
+            print("Sorry. You lose.")
+
+        # Ask the user if they would like to play again and save the answer as 
+        # a variable
+        print("Would you like to play again?")
+        play_again = input("Type (y) to continue or anything else to exit. ")
+
+        # If the user's answer is not "y" or "Y", break from the loop
+        if play_again.lower() != "y":
+            break
+    # Print an error if the user didn't select a valid choice
+    else:
+        print("I don't understand that!")
+        print("Next time, choose from 'r', 'p', or 's'.")
+
+# Say goodbye if the loop has been exited
+print("Thank you for playing Rock Paper Scissors. See you next time!")
+
+
+Mark Amanfu
+  6:42 PM
+Match Case Statements in Python
+match statements are a feature introduced in Python 3.10 for pattern matching, allowing for a more readable and powerful way to handle different conditions and data structures. They are similar to switch-case statements in other languages but more versatile.
+Provided is an example to illustrate how match statements work, taken from Python's official documentation:
+def http_status(status_code):
+    match status_code:
+        case 200:
+            return "OK"
+        case 404:
+            return "Not Found"
+        case 500:
+            return "Internal Server Error"
+        case _:
+            return "Unknown status code"
+            
+print(http_status(200))  # Output: OK
+print(http_status(404))  # Output: Not Found
+print(http_status(301))  # Output: Unknown status code
+In the above example:
+The match statement checks the value of status_code.
+Each case represents a possible value.
+The _ case acts as a catch-all for any value not explicitly handled by the previous cases.
+
+
+Mark Amanfu
+  7:07 PM
+Dictionaries in Python
+A dictionary in Python is a collection of key-value pairs. Each key is unique, and it maps to a value. Dictionaries are mutable, meaning you can change them after they are created.
+Here's a basic example of a dictionary:
+# Creating a dictionary
+person = {
+    "name": "Alice",
+    "age": 25,
+    "city": "San Francisco"
+}
+
+# Accessing values
+print(person["name"])  # Output: Alice
+print(person["age"])   # Output: 25
+Dictionary Methods: items(), keys(), and values()
+The items() method returns an object that displays a list of dictionary's key-value tuple pairs.
+print(person.items())
+# Output: dict_items([('name', 'Alice'), ('age', 25), ('city', 'San Francisco')])
+
+# Iterating through key-value pairs
+for key, value in person.items():
+    print(f"{key}: {value}")
+# Output:
+# name: Alice
+# age: 25
+# city: San Francisco
+The keys() method returns an object that displays a list of all the keys in the dictionary.
+print(person.keys())
+# Output: dict_keys(['name', 'age', 'city'])
+
+# Iterating through keys
+for key in person.keys():
+    print(key)
+# Output:
+# name
+# age
+# city
+The values() method returns an object that displays a list of all the values in the dictionary.
+print(person.values())
+# Output: dict_values(['Alice', 25, 'San Francisco'])
+
+# Iterating through values
+for value in person.values():
+    print(value)
+# Output:
+# Alice
+# 25
+# San Francisco
+
+
+Mark Amanfu
+  9:20 PM
+Print a Menu Solution:
+# Menu dictionary
+menu['Meals'].items()
+('Burrito',4.49), ()
+
+menu = {
+    "Snacks": {
+        "Cookie": .99,
+        "Banana": .69,
+        "Apple": .49,
+        "Granola bar": 1.99
+    },
+    "Meals": {
+        "Burrito": 4.49,
+        "Teriyaki Chicken": 9.99,
+        "Sushi": 7.49,
+        "Pad Thai": 6.99,
+        "Pizza": {
+            "Cheese": 8.99,
+            "Pepperoni": 10.99,
+            "Vegetarian": 9.99
+        },
+        "Burger": {
+            "Chicken": 7.49,
+            "Beef": 8.49
+        }
+    },
+    "Drinks": {
+        "Soda": {
+            "Small": 1.99,
+            "Medium": 2.49,
+            "Large": 2.99
+        },
+        "Tea": {
+            "Green": 2.49,
+            "Thai iced": 3.99,
+            "Irish breakfast": 2.49
+        },
+        "Coffee": {
+            "Espresso": 2.99,
+            "Flat white": 2.99,
+            "Iced": 3.49
+        }
+    },
+    "Dessert": {
+        "Chocolate lava cake": 10.99,
+        "Cheesecake": {
+            "New York": 4.99,
+            "Strawberry": 6.49
+        },
+        "Australian Pavlova": 9.99,
+        "Rice pudding": 4.99,
+        "Fried banana": 4.49
+    }
+}
+
+menu_dashes = "-" * 42
+
+# Launch the store and present a greeting to the customer
+print("Welcome to the variety food truck.")
+
+# Customers may want to view different sections of the menu, so let's create a 
+# continuous loop
+while True:
+    # Ask the customer which menu category they want to view
+    print("Which menu would you like to view? ")
+
+    # Create a variable for the menu item number
+    i = 1
+    # Create a dictionary to store the menu for later retrieval 
+    menu_items = {}
+
+    # Print the options to choose from menu headings (all the first level 
+    # dictionary items in menu).
+    for key in menu.keys():
+        print(f"{i}: {key}")
+        # Store the menu category associated with its menu item number
+        menu_items[i] = key
+        # Add 1 to the menu item number
+        i += 1
+
+    # Get the customer's input
+    menu_category = input("Type menu number to view or q to quit: ")
+
+    # Exit the loop if user typed 'q'
+    if menu_category == 'q':
+        break
+    # Check if the customer's input is a number
+    elif menu_category.isdigit():
+        # Check if the customer's input is a valid option
+        if int(menu_category) in menu_items.keys():
+            # Save the menu category name to a variable
+            menu_category_name = menu_items[int(menu_category)]
+            # Print out the menu category name they selected
+            print(f"You selected {menu_category_name}")
+
+            # Display the heading for the sub-menu
+            print(menu_dashes)
+            print(f"This is the {menu_category_name} menu.")
+            print(menu_dashes)
+            print("Item # | Item name                | Price")
+            print("-------|--------------------------|-------")
+
+            # Initialize a menu item counter
+            item_counter = 1
+            # Print out the menu options from the menu_category_name
+            for key, value in menu[menu_category_name].items():
+                # Check if the menu item is a dictionary to handle differently
+                if type(value) is dict:
+                    # Iterate through the dictionary items
+                    for key2, value2 in value.items():
+                        # Print the menu item
+                        num_item_spaces = 24 - len(key + key2) - 3
+                        item_spaces = " " * num_item_spaces
+                        print(f"{item_counter}      | "
+                              + f"{key} - {key2}{item_spaces} | "
+                              + f"${value2}")
+                        # Add 1 to the item_counter
+                        item_counter += 1
+                else:
+                    # Print the menu item
+                    num_item_spaces = 24 - len(key)
+                    item_spaces = " " * num_item_spaces
+                    print(f"{item_counter}      | "
+                          + f"{key}{item_spaces} | ${value}")
+                    # Add 1 to the item_counter
+                    item_counter += 1
+            
+            print(menu_dashes)
+            input("Press enter to return to the main menu.")
+
+        else:
+            # Tell the customer they didn't select a menu option
+            print(f"{menu_category} was not a menu option.")
+    else:
+        # Tell the customer they didn't select a number
+        print("You didn't select a number.")
+9:20
+List Comprehensions
+List comprehensions are a concise way to create lists in Python. They provide a syntactic shortcut to create a new list by applying an expression to each element in an iterable (like a list or range), optionally filtering elements using a conditional statement.
+Basic Syntax:
+[expression for item in iterable if condition]
+Examples:
+List of Squares using List Comprehensions
+squares = [x**2 for x in range(10)]
+print(squares)
+# Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+List of Squares using For Loops
+squares = []
+for x in range(10):
+    squares.append(x**2)
+print(squares)
+# Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+Filtering using List Comprehensions
+evens = [x for x in range(10) if x % 2 == 0]
+print(evens)
+# Output: [0, 2, 4, 6, 8]
+
+
+Mark Amanfu
+  5:00 PM
+For more information on packing and unpacking in Python, please read through the following article:
+https://thenewstack.io/packing-and-unpacking-in-python/
+The New Stack
+Packing and Unpacking in Python
+By using packing and unpacking you can create assignments with a single statement and catch several values with a single identifier, making your code much easier to read.
+Written by
+Jack Wallen
+Est. reading time
+4 minutes
+Feb 28th
+https://thenewstack.io/packing-and-unpacking-in-python/
+
+:raised_hands:
+1
+
+
+1 reply
+3 months agoView thread
+
+
+Anthony Taylor
+  8:26 AM
+@channel Welcome to the exciting world of Python functions! Today, you're going to unlock a vital skill that will help you write more efficient and organized code. Functions are like the building blocks of programming—they allow you to encapsulate complex tasks into simpler, reusable actions. This not only saves time but also makes your code more readable and easier to maintain.
+As we delve into creating and using functions, you'll see how they can perform powerful transformations on data with ease. Plus, we'll cover how to make your code professional and clean with the latest documentation and styling standards. Ready to become a Python functions wizard? Let's get coding!
+Here are some resources to get you started:
+Python Functions - A Quick Guide:
+Built-in Python Functions:
+Code Documentation Standards
+Python Style Guide:
+w3schools.comw3schools.com
+Python Functions
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/python/python_functions.asp
+
+Python documentationPython documentation
+Built-in Functions
+The Python interpreter has a number of functions and types built into it that are always available. They are listed here in alphabetical order.,,,, Built-in Functions,,, A, abs(), aiter(), all(), a...
+Python Enhancement Proposals (PEPs)Python Enhancement Proposals (PEPs)
+PEP 257 – Docstring Conventions | peps.python.org
+Python Enhancement Proposals (PEPs)
+Python Enhancement Proposals (PEPs)Python Enhancement Proposals (PEPs)
+PEP 8 – Style Guide for Python Code | peps.python.org
+Python Enhancement Proposals (PEPs)
+:pray:
+1
+
+
+
+Sandokan Stage
+  8:36 AM
+:+1:
+
+
+HOWARD PHILIP DIXON
+  11:02 AM
+thank you Anthony
+:heavy_plus_sign:
+1
+
+
+
+HOWARD PHILIP DIXON
+  11:37 AM
+thank you mark
+:heavy_plus_sign:
+1
+
+
+
+Anthony Taylor
+  9:42 PM
+@channel Embarking on today's Python adventure, you'll discover the power of collaboration through external modules and the art of refining code into sleek, functional units. As you import and wield the tools created by fellow developers, you'll stand on the shoulders of giants, expanding the capabilities of your programs exponentially.
+We'll also navigate the thrilling process of transforming user and business needs into tangible software solutions. By the end of our session, you'll not only use modules created by others but also craft and share your very own, contributing to the vibrant Python ecosystem.
+Ready to elevate your coding prowess and make your mark in the world of software development? Here are some friendly resources to guide you:
+Importing Modules
+Refactoring
+Agile methodology
+Python module creation - Medium
+Python Modules (w3schools.com)
+Python documentationPython documentation
+6. Modules
+If you quit from the Python interpreter and enter it again, the definitions you have made (functions and variables) are lost. Therefore, if you want to write a somewhat longer program, you are bett...
+realpython.comrealpython.com
+Refactoring Python Applications for Simplicity – Real Python
+In this step-by-step tutorial, you'll learn how to refactor your Python application to be simpler and more maintainable and have fewer bugs. You'll cover code metrics, refactoring tools, and common anti-patterns. (230 kB)
+https://realpython.com/python-refactoring/
+
+AsanaAsana
+What Is Agile Methodology? (A Beginner’s Guide) [2024] • Asana
+Agile methodology is a framework that breaks projects down into several dynamic phases, commonly known as sprints. Learn more. (84 kB)
+https://asana.com/resources/agile-methodology
+
+MediumMedium
+The Complete Guide to Creating Python Packages
+It is time to convert your reusable Python scripts into packages
+Reading time
+12 min read
+Mar 16th, 2021 (107 kB)
+https://betterprogramming.pub/the-complete-guide-to-creating-python-packages-3ecb150a1a43
+
+w3schools.comw3schools.com
+Python Modules
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/python/python_modules.asp
+
+:raised_hands:
+2
+
+
+
+Anthony Taylor
+  9:48 PM
+@channel Base Python lesson behind us, let’s move into a library that we will use a LOT as AI and data professionals… Pandas.  Don’t let the name fool you, it’s not a cute cuddly bear, its a powerful package that greatly simplifies working with data.  Here are some links to prep you for class:
+Intro to Pandas
+Creating Pandas Dataframe from scratch
+Pandas read_csv()
+Messing with columns in Pandas
+Writing to_csv() with pandas
+MediumMedium
+An Introduction to Pandas in Python
+Pandas has the goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language.
+Reading time
+8 min read
+Aug 7th, 2019
+https://towardsdatascience.com/an-introduction-to-pandas-in-python-b06d2dd51aba
+
+GeeksforGeeksGeeksforGeeks
+Different ways to create Pandas Dataframe - GeeksforGeeks
+A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.
+Nov 13th, 2018
+shanelynn.ieshanelynn.ie
+Python Pandas read_csv: Load Data from CSV Files | Shane Lynn
+The Python Pandas read_csv function is used to read or load data from CSV files. We examine the comma-separated value format, tab-separated files, FileNotFound errors, file extensions, and Python paths.
+GeeksforGeeksGeeksforGeeks
+Dealing with Rows and Columns in Pandas DataFrame - GeeksforGeeks
+A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.
+Jan 3rd, 2019
+datatofish.comdatatofish.com
+How to Export Pandas DataFrame to a CSV File – Data to Fish
+In order to export Pandas DataFrame to a CSV file in Python df r Path to store the exported CSV file File Name csv index False And if you wish to incl
+
+
+HOWARD PHILIP DIXON
+  10:11 PM
+Thank you Anthony
+
+
+Sandokan Stage
+  6:57 PM
+@here during my tutoring session, the tutor recommended I take a look at this site to get really good foundational knowledge. Check it out: https://learnxinyminutes.com/docs/python/
+
+
+Charles Olson
+  6:57 PM
+Interesting
+6:57
+I am in datacamp right now trying their python stuff for some reinforcing
+6:58
+I am still figuring out chat GPTs quarks
+
+
+HOWARD PHILIP DIXON
+  3:36 PM
+I have read through some of the info Anthony sent on Pandas
+
+
+Anthony Taylor
+  9:50 PM
+@channel Day 1 of Pandas was really great.  Everyone seemed to be sailing right along.  On Day 2, we will keep the learning coming with topics on selecting data from Pandas DataFrames, filtering, grouping, aggregating and sorting.
+Get ready to harness these fundamental Python concepts to slice, dice, and dissect data with Pandas.
+Here are some quick resources to prepare you for day 2:
+loc and iloc tutorial
+Deleting from a dataframe
+GREAT - short article on grouping and sorting
+Analytics VidhyaAnalytics Vidhya
+How to use loc and iloc for Selecting Data in Pandas (with Python code!)
+Pandas loc vs. iloc is a classic Python interview question in machine learning. This tutorial will show you the difference between loc and iloc in pandas.
+Written by
+Lakshay Arora
+Est. reading time
+9 minutes
+Feb 13th, 2020 (650 kB)
+https://www.analyticsvidhya.com/blog/2020/02/loc-iloc-pandas/
+
+pythonexamples.orgpythonexamples.org
+How to delete column(s) of Pandas DataFrame? - Python Examples
+To delete or remove only one column from Pandas DataFrame, you can use either del keyword, pop() function or drop() function on the DataFrame. To delete multiple columns from Pandas Dataframe, use drop() function on the DataFrame.
+MediumMedium
+Pandas made easy : groupby
+Groupby is one of several thing very powerful in pandas. Using groupby() with just one function, we could have answer for a fairly…
+Reading time
+3 min read
+Jun 22nd, 2019
+https://medium.com/datamadeeasy/pandas-made-easy-groupby-65e4e3c26a6
+
+
+
+Anthony Taylor
+  1:32 PM
+@channel hey gang... I love this site for ebooks... they often have amazing deals... this one is pretty good https://www.humblebundle.com/books/land-tech-job-for-dummies-wiley-books?hmb_source=&hm[…]hrees_tile_index_1_c_landtechjobfordummieswiley_bookbundle
+Humble BundleHumble Bundle
+Humble Tech Book Bundle: Land a Tech Job for Dummies by Wiley
+Land a lucrative career in tech with the help of this collection of books in the For Dummies series. Learn to code, nail your interview, and support Code.org! (80 kB)
+https://www.humblebundle.com/books/land-tech-job-for-dummies-wiley-books?hmb_source=&hmb_medium=product_tile&hmb_campaign=mosaic_section_1_layout_index_1_layout_type_threes_tile_index_1_c_landtechjobfordummieswiley_bookbundle
+
+:raised_hands:
+1
+:+1:
+2
+
+
+
+Anthony Taylor
+  7:59 PM
+a lil cheat sheet on what we are learning in Pandas:
+Excel Spreadsheet
+ 
+
+Pandas Helper.xlsx
+Excel Spreadsheet
+
+
+Alexander Williamson
+  8:11 PM
+Your @du.edu emails gets you all access to Safari/O'Reilly e-book library (normally $500/year for an individual). My work used to have it until they decided to stop paying for it.
+1. Visit this link
+2. Click "Institution not listed?"
+3. Enter your du.edu email address to log in
+:+1:
+3
+
+
+
+5 replies
+Last reply 3 months agoView thread
+
+
+Anna Fine
+  8:51 PM
+For reference on z-scores:
+https://www.youtube.com/watch?app=desktop&v=mFYvUxOO2T4
+
+
+Alexander Williamson
+  9:44 PM
+I was also following this guide for Safari: https://libraryhelp.du.edu/faq/335435
+
+
+Anthony Taylor
+  9:48 PM
+@channel While Pandas Day 2 was a lot more material, we still sailed through it.  All of you appear to be getting a bit more accustomed to the "Boot Camp" pace and this will make you feel like we are making the classes easier.  Nothing is further from the truth, you guys are picking up some very complicated concepts and doing it very fast, keep it up!
+On Pandas Day 3, we are going to begin merging our data.  Basically, this is taking more than one data source and putting them together on a shared value.  This is a vital task in any data profession.  After merging, we will look at binning.  Binning is great for analysis and will also help us with visualizations (starting next class).
+Merging Tutorial
+Binning
+tutorialspoint.comtutorialspoint.com
+Python Pandas - Merging/Joining
+Python Pandas - Merging/Joining - Pandas has full-featured, high performance in-memory join operations idiomatically very similar to relational databases like SQL. (7 kB)
+https://www.tutorialspoint.com/python_pandas/python_pandas_merging_joining.htm
+
+CodeSpeedyCodeSpeedy
+Binning or Bucketing of column in pandas using Python - CodeSpeedy
+In this article, we will study binning or bucketing of column in pandas using Python. Binning is grouping values together into bins.
+Written by
+Rani Bane
+Est. reading time
+2 minutes
+Feb 4th, 2020 (164 kB)
+https://www.codespeedy.com/binning-or-bucketing-of-column-in-pandas-using-python/
+
+:+1:
+1
+
+
+
+HOWARD PHILIP DIXON
+  8:00 PM
+Has anyone signed up for Humble Bundle?
+
+
+2 replies
+Last reply 3 months agoView thread
+
+
+Anthony Taylor
+  9:29 PM
+@channel Team, gather around! It's time to dive into the world of DataFrames with the elegance of a maestro and the precision of a data scientist. Today, we're going to orchestrate some Pandas magic.
+Merging is like hosting the most sophisticated dinner party where only the finest data gets a seat at the table. You're the host, deciding on the guest list, making sure each piece of data finds its perfect match.
+Concatenation is the potluck party of data. Everyone’s invited, and they can line up for a feast, either stacking up for a vertical buffet or stretching out for a horizontal banquet. The more, the merrier!
+Joining is your exclusive members-only club. DataFrames can get in only if their indices match. It’s about exclusivity and precision; a perfect blend for tailored insights.
+And then there's the part where we deal with duplicates—like having twins at a party. You need to make sure each one is unique or decide if it’s time for them to step out, all in a day's work. :men-with-bunny-ears-partying:
+Here are your tools for this grand event:
+Merging
+Concatenation
+Joining
+Managing Duplicates
+w3schools.comw3schools.com
+Pandas DataFrame merge() Method
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/python/pandas/ref_df_merge.asp
+
+w3schools.comw3schools.com
+Pandas DataFrame join() Method
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/python/pandas/ref_df_join.asp
+
+w3schools.comw3schools.com
+Pandas DataFrame duplicated() Method
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/python/pandas/ref_df_duplicated.asp
+
+
+
+Anthony Taylor
+  8:57 PM
+@channel All of you appear to be getting a bit more accustomed to the "Boot Camp" pace and this will make you feel like we are making the classes easier.  Nothing is further from the truth, you guys are picking up some very complicated concepts and doing it very fast, keep it up!
+On Pandas week 2,  Day 2, we are going to begin merging our data.  Basically, this is taking more than one data source and putting them together on a shared value.  This is a vital task in any data profession.  After merging, we will look at binning.  Binning is great for analysis and will also help us with visualizations (starting next class).
+	GroupBy:
+	Pandas Aggregation
+	Aggregation and Grouping
+Binning
+CodeSpeedyCodeSpeedy
+Binning or Bucketing of column in pandas using Python - CodeSpeedy
+In this article, we will study binning or bucketing of column in pandas using Python. Binning is grouping values together into bins.
+Written by
+Rani Bane
+Est. reading time
+2 minutes
+Feb 4th, 2020 (164 kB)
+https://www.codespeedy.com/binning-or-bucketing-of-column-in-pandas-using-python/
+
+
+
+Anthony Taylor
+  9:46 PM
+@channel This week's module is a deep dive into the transformative process of pivoting and reshaping data. Understanding how to pivot data is not just a technical skill; it's an analytical one that can change the way you approach datasets. You'll learn to distinguish between single and multiple aggregations, apply complex aggregation functions, and even write your own functions to gain deeper insights. We'll also explore multi-indexing and various methods like resample and melt to reshape your data. Embrace the power of these techniques to elevate your data analysis capabilities.
+:
+Pivot Tables
+Custom Aggregate Functions
+MultiIndex / Advanced Indexing
+Reshaping by Melt
+MediumMedium
+Using Panda’s “transform” and “apply” to deal with missing data on a group level
+Learn what to do when you don’t want to simply discard missing data.
+Reading time
+8 min read
+Nov 3rd, 2019 (328 kB)
+https://towardsdatascience.com/using-pandas-transform-and-apply-to-deal-with-missing-data-on-a-group-level-cb6ccf060531
+
+
+
+Alexander Williamson
+  8:38 PM
+Had to ask ChatGPT to list out the available string arguments for pandas.DataFrame.resample(), but here they are:
+Base Time Frequencies:
+B: Business day frequency
+C: Custom business day frequency (experimental)
+D: Calendar day frequency
+W: Weekly frequency
+M: Month end frequency
+SM: Semi-month end frequency (15th and end of month)
+BM: Business month end frequency
+CBM: Custom business month end frequency
+MS: Month start frequency
+SMS: Semi-month start frequency (1st and 15th)
+BMS: Business month start frequency
+CBMS: Custom business month start frequency
+Q: Quarter end frequency
+BQ: Business quarter end frequency
+QS: Quarter start frequency
+BQS: Business quarter start frequency
+A: Year end frequency
+BA: Business year end frequency
+AS: Year start frequency
+BAS: Business year start frequency
+Additional Frequencies:
+H: Hourly frequency
+T or min: Minutely frequency
+S: Secondly frequency
+L or ms: Millisecond frequency
+U or us: Microsecond frequency
+N: Nanosecond frequency
+Anchored Offsets:
+W-MON, W-TUE, W-WED, W-THU, W-FRI, W-SAT, W-SUN: Weekly frequency with the week ending on a specific day
+Q-JAN, Q-FEB, Q-MAR, Q-APR, Q-MAY, Q-JUN, Q-JUL, Q-AUG, Q-SEP, Q-OCT, Q-NOV, Q-DEC: Quarter end frequency with the year ending in a specified month
+A-JAN, A-FEB, A-MAR, A-APR, A-MAY, A-JUN, A-JUL, A-AUG, A-SEP, A-OCT, A-NOV, A-DEC: Year end frequency with the year ending in a specified month
+Custom Frequencies:
+B/Q, B/Q-JAN, B/Q-FEB, etc.: Business quarter end frequency with the year ending in a specified month
+B/A, B/A-JAN, B/A-FEB, etc.: Business year end frequency with the year ending in a specified month
+:+1:
+1
+:eyes:
+1
+
+
+
+Anthony Taylor
+  9:35 PM
+@channel Being able to get data from other organizations is absolutely necessary for a solid data professional.  Today we are going to take a look at one of the most common ways to get data from other organizations.
+Great intro to API
+MediumMedium
+Absolute beginners guide to slaying APIs using Python
+Have you ever wondered how online travel search engines like skyscanner or expedia cater the best deals for you, How they manage to keep…
+Reading time
+10 min read
+Jun 4th, 2021
+https://medium.com/quick-code/absolute-beginners-guide-to-slaying-apis-using-python-7b380dc82236
+
+:heart_eyes:
+1
+
+
+
+Anthony Taylor
+  9:33 PM
+@channel Day 1 of API's complete!  It's super exciting to see all of the different data sources that open up to you now with API's. I have attached a couple of lists of API's available to you and you now have the skills to read from them!  Day 2, starts off with some review on how to traverse JSON files, then we will take the data we extract and turn it into a Pandas DataFrame!  This will be to facilitate analysis and visualization.  (remember that you can pass in a "dictionary of lists" when creating a dataframe).  We are going to be combining a lot of what we have learned recently today.  An example path: read API, extract needed data, convert to Pandas, apply visualizations, do linear regression.  So be ready to look back at your notes if necessary.
+We are also going to look into "try, except, finally" blocks.  This is basically error handling in Python.
+A list of API's
+Another that is all public API's
+Exception tutorial
+While we will have time for this in class, feel free to go register for an api key at
+ New York Times
+TMDB
+OpenWeatherAPI
+US Census
+:white_check_mark:
+1
+
+
+
+HOWARD PHILIP DIXON
+  9:49 PM
+thank you
+
+
+HOWARD PHILIP DIXON
+  10:03 PM
+Which one of the OpenWeather API's should be sign up for?
+
+
+James Gile
+  4:47 PM
+Here's a fun search for the TMDB: url = "https://api.themoviedb.org/3/search/person?query=Jim%20Gile&include_adult=false&language=en-US&page=1"
+
+
+Anthony Taylor
+  5:51 PM
+image.png
+ 
+image.png
+
+
+Anthony Taylor
+  9:37 PM
+@channel :star2: "Welcome to another exciting day in our AI journey! Today, we'll delve into some fundamental yet powerful concepts in the world of programming and data science. We're going to explore the differences between an API and an SDK, two key tools in a developer's arsenal. Understanding this distinction is crucial for leveraging external data and functionalities in your projects.
+:bar_chart: Our major highlight today will be using a Python SDK to fetch US Census data. This is where you get to see the practical power of APIs in action, bringing vast amounts of data right at your fingertips.
+:hammer_and_wrench: Finally, we're pushing the boundaries of creativity and independence. You'll be creating applications from scratch using only your Python skills and an API’s documentation. This is where you turn theory into practice, ideas into reality.
+Remember, each line of code you write is a step towards mastery. Let's dive in and explore the vast possibilities that APIs and SDKs open up for us!"
+Python SDK Authentication Guide: A step-by-step tutorial on how to set authentication for Python SDKs, ensuring secure data access. Python SDK Authentication
+Fetching US Census Data with Python: Using the US Census API and PUMS for Data Analysis | by Cierra Andaur | Towards Data Scienc
+realpython.comrealpython.com
+Python and REST APIs: Interacting With Web Services – Real Python
+In this tutorial, you'll learn how to use Python to communicate with REST APIs. You'll learn about REST architecture and how to use the requests library to get data from a REST API. You'll also explore different Python tools you can use to build REST APIs. (178 kB)
+https://realpython.com/api-integration-in-python/
+
+MediumMedium
+Using the US Census API for Data Analysis (a beginner’s guide)
+It’s project week and we’re pulling US Census data!
+Reading time
+8 min read
+Oct 18th, 2021 (95 kB)
+https://towardsdatascience.com/using-the-us-census-api-for-data-analysis-a-beginners-guide-98063791785c
+
+:raised_hands:
+1
+
+
+
+Anna Fine
+  7:39 PM
+hot tip: if you’re taking notes in your notebook, you can copy the screenshot, create a new markdown cell and then paste the screenshot in it
+
+
+HOWARD PHILIP DIXON
+  7:39 PM
+ok
+
+
+Charles Olson
+  7:40 PM
+yeah I am taking screenshots as we go
+
+
+Anthony Taylor
+  8:58 PM
+PDF
+ 
+
+flaskwebdevelopment (1).pdf
+PDF
+:fire:
+1
+
+
+
+HOWARD PHILIP DIXON
+  8:59 PM
+thank you
+
+
+Anthony Taylor
+  9:51 PM
+@channel We are flying, we have a pretty good understanding of Python now.  Let’s start some visualizations!  Matplotlib is a great package that provides us with some great methods for creating nice charts and base visualizations.
+Intro to MatPlotLib
+Simple styling in matplotlib
+MediumMedium
+Introduction to Matplotlib in Python
+A quick guide to getting up and running with data visualization techniques in the matplotlib library
+Reading time
+4 min read
+Apr 19th, 2020
+https://towardsdatascience.com/introduction-to-matplotlib-in-python-5f5a9919991f
+
+GeeksforGeeksGeeksforGeeks
+Matplotlib.pyplot.title() in Python - GeeksforGeeks
+A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.
+Apr 12th, 2020
+:pray:
+1
+:fire:
+2
+
+
+1 reply
+2 months agoView thread
+
+
+Anthony Taylor
+  9:23 PM
+@channel With Day 1 of MatPlotLib behind, you can begin to see just a bit of the charting capabilities of python.  There is OH so much more.  On Day 2 we are going to be using Pandas to bring in much more interesting datasets.   In most cases, this would be the method you would bring in small to midsize datasets (through Pandas).   We are going to learn that Pandas has implemented some of Matplotlib, making it even easier to create charts from Pandas Dataframes.  Bottom line: Day 2's class is as much Pandas stuff that you have already done as it is matplotlib, so be up on your merging, renaming, filtering, etc.
+Nice 10 min Guide to using Matplotlib with Pandas
+Pandas Dataframe.Plot docs
+MediumMedium
+A Guide to Pandas and Matplotlib for Data Exploration
+After recently using Pandas and Matplotlib to produce the graphs / analysis for this an article I was working on. I decided to put together…
+Reading time
+9 min read
+Jun 20th, 2022
+https://towardsdatascience.com/a-guide-to-pandas-and-matplotlib-for-data-exploration-56fad95f951c
+
+:+1:
+2
+:pray:
+1
+
+
+
+HOWARD PHILIP DIXON
+  9:49 PM
+thank you
+
+
+Anthony Taylor
+  12:39 PM
+@channel good bundle if anyone is looking for more programming (including front end) https://www.humblebundle.com/books/learn-to-program-pearson-books?hmb_source=&hmb_mediu[…]ype_threes_tile_index_1_c_learntoprogrampearson_bookbundle
+Humble BundleHumble Bundle
+Humble Tech Book Bundle: Learn to Program by Pearson
+The time is now! Learn to code with this bundle of books from Pearson, covering Python, Javascript & much more! Pay what you want and help support Code.org. (78 kB)
+https://www.humblebundle.com/books/learn-to-program-pearson-books?hmb_source=&hmb_medium=product_tile&hmb_campaign=mosaic_section_1_layout_index_1_layout_type_threes_tile_index_1_c_learntoprogrampearson_bookbundle
+
+
+
+Anthony Taylor
+  9:34 PM
+@channel (honestly, I kind of slacked on my resources for the “statistics” day, but here it is)
+Matplotlib day 2 allowed us to create our basic charts using Pandas!  It was a great way to practice our data engineering skills as well as our visualization skills.  Day 3 is a little different, it is mostly going to be about statistics and how to calculate them with python,  we will still have some visualizations, but it's mostly about the stats!
+Here is a great presentation that reviews the basic statistical concepts we will cover.
+	Statistics Tutorial (w3schools.com)
+Stats stuff(medium)
+w3schools.comw3schools.com
+W3Schools.com
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/statistics/index.php
+
+MediumMedium
+Learn Basic Statistics with Python
+Learn how to calculate and interpret several descriptive statistics using the Python libraries. Find out how to describe, summarize, and…
+Reading time
+18 min read
+Feb 28th, 2023
+https://medium.com/insights-school/learn-basic-statistics-with-python-cc0f45275929
+
+
+
+HOWARD PHILIP DIXON
+  9:35 PM
+thank you Anthony
+
+
+Anthony Taylor
+  9:34 PM
+@channel Today's class is all about the thrilling world of data and time. Time is not just a number; it's a powerful factor that can unlock insights and predict trends. As data analysts, you're the time travelers of the data universe!
+We're embarking on a journey where you'll explore the intricate details of time zones in stock data, analyze market trends across time, and unravel the mysteries hidden within time series data. Each step you take today brings you closer to becoming a data-driven decision-maker.
+Remember, data visualization is your superpower. It turns complex numbers into stories that anyone can understand. You'll create stunning visuals of stock data and learn to interpret them like a
+ pro.
+ Don't be afraid to ask questions, experiment, and make mistakes. That's how we learn and grow. By the end of today's class, you'll possess valuable skills that will set you apart in the world of data analysis.
+So, gear up, dive in, and let's make time work for us in the world of data analysis!"
+---
+Time Series Data
+Timescale BlogTimescale Blog
+Time-Series Data: What It Is, and How to Use It
+Learn what time-series data is and why it’s valuable. Plus, real examples of time-series data.
+Written by
+Ajay Kulkarni
+Filed under
+General, Blog
+Aug 23rd, 2023
+https://www.timescale.com/blog/time-series-data/
+
+
+
+Anthony Taylor
+  1:19 PM
+@channel What is Time Series Forecasting?
+How AIs, Like ChatGPT, Learn
+A.I. Experiments: Visualizing High-Dimensional Space
+MachineLearningMastery.comMachineLearningMastery.com
+What Is Time Series Forecasting? - MachineLearningMastery.com
+Time series forecasting is an important area of machine learning that is often neglected. It is important because there are so many prediction problems that involve a time component. These problems are neglected because it is this time component that makes time series problems more difficult to handle. In this post, you will discover time […]
+Written by
+Jason Brownlee
+Est. reading time
+7 minutes
+Dec 1st, 2016
+https://machinelearningmastery.com/time-series-forecasting
+
+YouTubeYouTube | CGP Grey
+How AIs, like ChatGPT, Learn 
+
+YouTubeYouTube | Google for Developers
+A.I. Experiments: Visualizing High-Dimensional Space 
+
+
+
+Anthony Taylor
+  7:38 PM
+PDF
+ 
+
+Datetime Conversions Using Pandas.pdf
+PDF
+
+
+Anthony Taylor
+  9:34 PM
+Today, we're diving into the fascinating world of time series analysis. Imagine having the power to predict future trends, understand patterns, and make data-driven decisions that can transform businesses. That's exactly what we're going to learn!
+You'll uncover hidden relationships among time series patterns, evaluate their predictive power using data correlation, and master the pandas corr function to compute these correlations. But it doesn't stop there. We'll also explore the immense business value of time series forecasting and the magic of automating these forecasts to save time and boost accuracy.
+Remember, every data point tells a story, and by the end of this journey, you'll be the storyteller who can foresee the future!
+https://colab.research.google.com/notebooks/basic_features_overview.ipynb
+1. *Identify relationships among time series patterns*:
+   - Time Series Analysis: What is it and How does it Work?
+   - Understanding Time Series Patterns
+2. *Use data correlation to evaluate the predictive relationship among time series patterns*:
+   - Correlation in Time Series Data
+   - Predictive Analytics: Correlation and Causation
+3. *Compute data correlation of time series data by using the pandas corr function*:
+   - Pandas Documentation: corr() function
+   - Correlation Calculation with Pandas
+4. *Describe the business value of time series forecasting*:
+   - The Business Value of Time Series Forecasting
+   - How Businesses Benefit from Time Series Analysis
+5. *Recognize the value of automating time series forecasting*:
+   - Automating Time Series Forecasting
+   - Benefits of Automated Time Series Forecasting
+colab.research.google.comcolab.research.google.com
+Google Colab (5 kB)
+https://colab.research.google.com/notebooks/basic_features_overview.ipynb
+
+datacamp.com
+Python Time Series Analysis: Analyze Google Trends Data
+Work with Time Series data using Python. Analyze keyword data from Google Trends data with pandas, NumPy & seaborn. Discover keyword trends today!
+
+
+Anna Fine
+  3:32 PM
+Hey all, would we wanna do a class trip to the DenAI conference? https://denaisummit.com/?utm_campaign=website&utm_medium=Email&utm_source=Denver+Startup+Week
+DenAI SummitDenAI Summit
+2024 DenAI Summit
+The country’s first city-led conference focused on using AI Technology to solve hard social problems. Register today to attend on September 19-20, 2024.
+Written by
+denaidev
+Time to read
+8 minutes
+Jun 24th
+https://denaisummit.com/?utm_campaign=website&utm_medium=Email&utm_source=Denver+Startup+Week
+
+:+1:
+2
+
+3:32
+Also, Denver startup week is just before: https://www.denverstartupweek.org/
+:+1:
+2
+
+
+
+Anthony Taylor
+  9:05 PM
+@channel Today's class is all about unlocking the secrets of time series data using one of the most powerful tools in the field: Prophet. Time series forecasting isn't just about predicting the future; it's about understanding patterns and making informed decisions.
+:chart_with_upwards_trend: We're diving into the art of time series formatting and plotting. With Prophet, you have a mighty ally in your quest to reveal trends, seasonality, and anomalies hidden within data streams. Whether it's predicting stock prices or weather trends, the possibilities are endless.
+:magic_wand: Think of Prophet as your data magician, capable of turning raw time series data into meaningful insights and visualizations. You'll learn how to wield this magic wand effectively.
+:bulb: Don't forget, the real power comes from asking the right questions. Today, you'll not only learn how to work with Prophet, but you'll also sharpen your data intuition. What's more exciting than predicting the future based on historical data?
+So, get ready to format, plot, and forecast like a pro! Let's embark on this journey into the fascinating world of time series analysis with Prophet!"
+Quick Start | Prophet (facebook.github.io)
+ProphetProphet
+Quick Start
+Prophet is a forecasting procedure implemented in R and Python. It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
+May 18th (22 kB)
+https://facebook.github.io/prophet/docs/quick_start.html
+
+
+
+Anthony Taylor
+  6:21 PM
+https://youtu.be/5q87K1WaoFI?si=dIZuyo2bWToCgVkJ
+YouTubeYouTube | WIRED
+Computer Scientist Explains Machine Learning in 5 Levels of Difficulty | WIRED 
+
+
+
+Anthony Taylor
+  9:48 PM
+@channel There are no resources for this week as we are starting projects on Wed.
+:+1:
+1
+
+
+
+Anthony Taylor
+  9:17 PM
+@channel Hey everyone!  "model, fit, predict....model, fit, predict...." We have learned that with a few lines of code you can train and evaluate models with Prophet that provide us some predictive capabilities.  Today we are going to dive into another major category of ML, Unsupervised Learning.  Here are a few resources to prepare you for the lessons.
+Supervised vs Unsupervised
+Data Prep
+K-means article
+MediumMedium
+Supervised vs. Unsupervised Learning
+Understanding the differences between the two main types of machine learning methods
+Reading time
+4 min read
+Jul 21st, 2020 (139 kB)
+https://towardsdatascience.com/supervised-vs-unsupervised-learning-14f68e32ea8d
+
+MediumMedium
+How To Prepare Your Data for Your Machine Learning Model
+A step-by-step guide for data preparation
+Reading time
+7 min read
+Sep 22nd, 2020 (485 kB)
+https://towardsdatascience.com/how-to-prepare-your-data-for-your-machine-learning-model-b4c9fd4e7ea
+
+Analytics VidhyaAnalytics Vidhya
+A Simple Explanation of K-Means Clustering
+K-means clustering is a powerful unsupervised machine learning algorithm. It is used to solve many complex machine learning problems.
+Written by
+ADITYA KUMAR PANDEY
+Est. reading time
+7 minutes
+Oct 4th, 2020 (60 kB)
+https://www.analyticsvidhya.com/blog/2020/10/a-simple-explanation-of-k-means-clustering/
+
+
+
+Alexander Williamson
+  8:20 PM
+https://www.kaggle.com/datasets/claytonmiller/ashrae-global-thermal-comfort-database-ii
+kaggle.comkaggle.com
+ASHRAE Global Thermal Comfort Database II
+81,846 sets of indoor climatic observations with subjective evaluations
+:+1:
+1
+:eyes:
+1
+
+
+1 reply
+26 days agoView thread
+
+
+Alexander Williamson
+  8:20 PM
+I haven't explored this dataset much but I think it contains data on the prevalence of air conditioning in various places
+
+
+James Gile
+  8:33 PM
+This is pretty cool clustering:
+8:33
+https://www.youtube.com/watch?v=wvsE8jm1GzE
+YouTubeYouTube | Google for Developers
+A.I. Experiments: Visualizing High-Dimensional Space 
+
+:open_mouth:
+1
+
+
+
+Anthony Taylor
+  9:32 PM
+@channel Unsupervised learning follows the same pattern (model, fit, predict).  It is a must if your data isn’t labeled.  We also discussed PCA to reduce our dimensions.  We are going to look at another way to reduce the number of features (t-SNE).
+We are also going to learn how to put all of these steps into a single easy to run step.
+We also have a couple more Unsupervised Models to look at DBSCAN and a Hierarchical Clustering algo.
+This is great stuff to know and understand no matter which data profession you plan to pursue.
+PCA
+Scaling data
+encoding
+Hierarchical Clustering
+Statistics By JimStatistics By Jim
+Principal Component Analysis Guide & Example
+Principal Component Analysis (PCA) takes a large dataset with many variables and reduces them to a smaller set of new variables.
+Written by
+Jim Frost
+Est. reading time
+13 minutes
+Jan 28th, 2023
+https://statisticsbyjim.com/basics/principal-component-analysis/
+
+Marcos del Cueto - Theoretical Chemist, PhDMarcos del Cueto - Theoretical Chemist, PhD
+How to scale data for Machine Learning: standardize features
+We see why it is important to standardize data before using a machine learning model and we show specific examples of how standardizing your data can improve the model's performance. This tutorial con
+Oct 22nd, 2021 (467 kB)
+https://www.mdelcueto.com/blog/scale-data-for-machine-learning-standardize-features/
+
+MachineLearningMastery.comMachineLearningMastery.com
+Ordinal and One-Hot Encodings for Categorical Data - MachineLearningMastery.com
+Machine learning models require all input and output variables to be numeric. This means that if your data contains categorical data, you must encode it to numbers before you can fit and evaluate a model. The two most popular techniques are an Ordinal Encoding and a One-Hot Encoding. In this tutorial, you will discover how […]
+Written by
+Jason Brownlee
+Est. reading time
+21 minutes
+Jun 11th, 2020
+https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/
+
+MediumMedium
+Hierarchical Clustering — Explained
+Theorotical explanation and scikit learn example
+Reading time
+6 min read
+Apr 3rd, 2020 (82 kB)
+https://towardsdatascience.com/hierarchical-clustering-explained-e58d2f936323
+
+:+1:
+1
+
+
+
+Anthony Taylor
+  9:38 PM
+@channel We've already tackled K-means and BIRCH clustering, and you've become pros at scaling your data with Standard Scaler. That's fantastic progress! Now, it's time to wrap up our unsupervised learning journey with one of the coolest and most powerful techniques out there: Principal Component Analysis, or PCA.
+Think of PCA as your ultimate data simplifier. Imagine you have a ton of features in your dataset, and it's like trying to navigate through a dense jungle. PCA comes in like a helicopter, giving you a bird's-eye view and showing you the most important pathways through the trees. It reduces the complexity while preserving the essence of your data, making it easier to visualize and work with.
+PCA Explained Visually: This is an excellent interactive resource that visually explains the concepts of PCA.
+Understanding Principle Component Analysis(PCA) step by step. | by Gursewak Singh | Analytics Vidhya | Medium: A practical guide to implementing PCA in Python using Scikit-Learn, complete with code examples
+Explained Visually
+Principal Component Analysis explained visually (49 kB)
+https://setosa.io/ev/principal-component-analysis/
+
+MediumMedium
+Understanding Principle Component Analysis(PCA) step by step.
+Introduction
+Reading time
+4 min read
+Jan 22nd (65 kB)
+https://medium.com/analytics-vidhya/understanding-principle-component-analysis-pca-step-by-step-e7a4bb4031d9
+
+:raised_hands:
+3
+
+
+1 reply
+25 days agoView thread
+
+
+Anthony Taylor
+  9:55 PM
+@channel Congratulations on completing the unsupervised learning section! Now, it's time to dive into the exciting world of supervised learning. Let's break down the key concepts and prepare for our next lessons. Here’s your pep talk and a roadmap to get you geared up for what's coming next.
+Key Terminology
+Features: The input variables (independent variables) used to make predictions.
+Labels: The output variables (dependent variables) that we are trying to predict.
+Model-Fit-Predict: The process of training a model (fit), using the model to make predictions (predict).
+Model Evaluation: Assessing the performance of a model using metrics like accuracy for classification, or MSE for regression.
+Preprocessing: Preparing data for modeling, which can include cleaning, scaling, encoding categorical variables, etc.
+Feature Selection: Choosing the most important features for the model to use.
+Training and Testing Data: Splitting the dataset into training data (to train the model) and testing data (to evaluate the model's performance).
+Supervised vs. Unsupervised Learning:
+Regression vs. Classification:
+You’ve mastered the art of clustering and dimensionality reduction. Now, let's channel that knowledge into supervised learning. This will open up new possibilities, from predicting continuous values with regression to classifying data into categories. Stay curious, keep experimenting, and remember – every line of code you write brings you one step closer to mastering data science!
+MediumMedium
+Supervised vs. Unsupervised Learning
+Understanding the differences between the two main types of machine learning methods
+Reading time
+4 min read
+Jul 21st, 2020 (139 kB)
+https://towardsdatascience.com/supervised-vs-unsupervised-learning-14f68e32ea8d
+
+GeeksforGeeksGeeksforGeeks
+Classification vs Regression in Machine Learning - GeeksforGeeks
+A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.
+Jan 7th, 2019
+:eyes:
+1
+:+1:
+1
+
+
+
+Anthony Taylor
+  8:01 AM
+@channel You're doing an amazing job navigating through the intricacies of regression modeling. Today, we're diving into some crucial concepts that will strengthen your understanding and application of regression techniques. Let’s gear up for an insightful session!
+Key Terminology
+Bias:
+The error introduced by approximating a real-world problem with a simplified model. High bias can lead to underfitting.
+Variance:
+The model’s sensitivity to fluctuations in the training data. High variance can lead to overfitting.
+Adjusted R-squared:
+An improved version of R-squared that adjusts for the number of predictors in the model, providing a more accurate measure of goodness-of-fit.
+p-values (from OLS):
+Used to determine the significance of each predictor in the model. Lower p-values (< 0.05) indicate significant predictors.
+Multicollinearity:
+A situation where predictor variables are highly correlated, leading to unreliable regression coefficients.
+Variance Inflation Factor (VIF):
+A measure used to detect the severity of multicollinearity. High VIF values (> 5 or 10) indicate problematic multicollinearity.
+Regularization:
+Techniques (such as Ridge and Lasso) used to prevent overfitting by adding a penalty to the model’s complexity.
+Ridge Regression (L2 Regularization):
+Adds a penalty equal to the sum of the squared coefficients, which helps shrink coefficients but does not eliminate any.
+Lasso Regression (L1 Regularization):
+Adds a penalty equal to the sum of the absolute values of the coefficients, which can shrink some coefficients to zero, effectively performing feature selection.
+Extra Resources
+Understanding Bias and Variance:
+Regularization Techniques: Ridge and Lasso:
+You've got a solid foundation, and now we're building on it with some advanced concepts that will make your regression models more robust and reliable. Embrace these new techniques, experiment with your data, and remember – the more you practice, the more intuitive these concepts will become. Keep pushing your limits, stay curious, and enjoy the journey of discovery.
+MachineLearningMastery.comMachineLearningMastery.com
+Gentle Introduction to the Bias-Variance Trade-Off in Machine Learning - MachineLearningMastery.com
+Supervised machine learning algorithms can best be understood through the lens of the bias-variance trade-off. In this post, you will discover the Bias-Variance Trade-Off and how to use it to better understand machine learning algorithms and get better performance on your data. Let’s get started. Update Oct/2019: Removed discussion of parametric/nonparametric models (thanks Alex). Overview […]
+Written by
+Jason Brownlee
+Est. reading time
+5 minutes
+Mar 17th, 2016
+https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/
+
+scikit-learnscikit-learn
+1.1. Linear Models
+The following are a set of methods intended for regression in which the target value is expected to be a linear combination of the features. In mathematical notation, if\hat{y} is the predicted val...
+
+
+Anthony Taylor
+  9:44 PM
+@channel You're at the final stretch of our regression module! You've come a long way, mastering various concepts and techniques. Today, we're focusing on building a machine learning pipeline and applying regression algorithms to a mini project. Let's make this last day of regression count!
+Key Terminology
+Machine Learning Pipeline:
+A sequence of data processing steps to automate and streamline the workflow from raw data to model predictions.
+Pipeline (from sklearn):
+A utility in scikit-learn that helps chain multiple steps (like preprocessing and modeling) together, ensuring reproducibility and efficiency.
+Supervised Learning Regression Algorithms:
+Algorithms where the model learns from labeled data to predict continuous outcomes, including Linear Regression, Ridge, and Lasso.
+Extra Resources
+Building Pipelines with Scikit-Learn:
+Mini Project Example: House Prices Prediction:
+Final Thoughts
+You’ve absorbed a wealth of knowledge on regression, and now it's time to put it all into practice by building a machine learning pipeline and tackling a mini project. This hands-on experience will cement your understanding and give you a taste of real-world data science. Embrace the challenge, apply what you've learned, and most importantly, have fun with it. You're building a solid foundation for your future in data science!
+scikit-learnscikit-learn
+6.1. Pipelines and composite estimators
+To build a composite estimator, transformers are usually combined with other transformers or with predictors(such as classifiers or regressors). The most common tool used for composing estimators i...
+kaggle.comkaggle.com
+House Prices - Advanced Regression Techniques
+Predict sales prices and practice feature engineering, RFs, and gradient boosting
+
+
+Anthony Taylor
+  9:29 PM
+@channel You've done an amazing job with regression, and now we’re moving into the world of classification. Today's class is all about understanding and implementing linear classification models, specifically Logistic Regression and Support Vector Machines (SVM). Let's break down the agenda and get you ready to tackle these concepts with confidence.
+Key Terminology
+Linear Classification Models:
+Models that separate data into classes using a linear decision boundary.
+Logistic Regression:
+A linear model used for binary classification. It uses the logistic function to model the probability that a given input belongs to a particular class.
+Sigmoid Function: Converts the linear output into a probability (ranging between 0 and 1).
+Support Vector Machine (SVM):
+A powerful classification method that finds the hyperplane which best separates the data into classes.
+Hyperplane: The decision boundary that separates different classes.
+Support Vectors: Data points that are closest to the hyperplane and influence its position and orientation.
+Performance Assessment:
+Evaluating the accuracy, precision, recall, and F1-score of classification models.
+Data Scaling Methods:
+Techniques to standardize the range of independent variables. Common methods include Min-Max Scaling and Standard Scaling (Z-score normalization).
+Extra Resources
+Logistic Regression Explained:
+Understanding SVM:
+Data Scaling Techniques:
+Final Thoughts
+You're stepping into a crucial part of your data science journey by learning about classification. Mastering logistic regression and SVM will give you robust tools for tackling a wide range of binary classification problems. Remember to pay attention to data scaling, as it can significantly impact the performance of your models. Dive into the concepts, practice with sample datasets, and enjoy the learning process. You've got this!
+MachineLearningMastery.comMachineLearningMastery.com
+Logistic Regression for Machine Learning - MachineLearningMastery.com
+Logistic regression is another technique borrowed by machine learning from the field of statistics. It is the go-to method for binary classification problems (problems with two class values). In this post, you will discover the logistic regression algorithm for machine learning. After reading this post you will know: The many names and terms used when […]
+Written by
+Jason Brownlee
+Est. reading time
+14 minutes
+Mar 31st, 2016
+https://machinelearningmastery.com/logistic-regression-for-machine-learning/
+
+MediumMedium
+Support Vector Machine — Introduction to Machine Learning Algorithms
+SVM model from scratch
+Reading time
+5 min read
+Jul 5th, 2018 (312 kB)
+https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+
+MediumMedium
+Data Scaling for Beginners
+How to scale your data to render it suitable for model building
+Reading time
+3 min read
+Oct 20th, 2023 (138 kB)
+https://medium.com/@benjaminobi/data-scaling-for-beginners-7e0108c62772
+
+
+
+Anthony Taylor
+  6:13 PM
+these are practice "projects" with solutions for the different areas we have cover so far.   Thank GPT!   I have included the prompt so you could ask for more
+5 files
+ 
+
+ML Regression Projects Guide.pdf
+PDF
+
+Unsupervised Learning Projects.pdf
+PDF
+
+Unsupervised Learning Projects (no dropna).pdf
+PDF
+
+Time Series Forecasting Guide.pdf
+PDF
+
+M13.1_ Linear Classification.pdf
+PDF
+:raised_hands:
+2
+:+1:
+1
+
+
+
+Anthony Taylor
+  9:29 PM
+Today’s class is going to be an exciting dive into some fundamental classification algorithms. By the end of today, you’ll have a solid understanding of how K-Nearest Neighbors (KNN), Decision Trees, and Random Forests work, how they differ from each other, and how to apply them in your machine learning projects. Let’s get started!
+Key Terminology
+K-Nearest Neighbors (KNN):
+How It Works: KNN is a simple, instance-based learning algorithm that classifies a data point based on the majority class among its K-nearest neighbors.
+Differences from Other Classifiers: Unlike other classifiers, KNN is non-parametric and lazy, meaning it makes decisions based on the entire dataset without training a model and does not make any assumptions about the data distribution.
+Decision Trees:
+How It Works: A decision tree splits the data into subsets based on the value of input features. Each node represents a feature, each branch represents a decision rule, and each leaf represents an outcome.
+Pros and Cons: Easy to interpret and visualize, but prone to overfitting if not properly pruned.
+Random Forests:
+How It Works: An ensemble method that creates a 'forest' of decision trees, each trained on a random subset of the data. The final classification is based on the majority vote of all trees.
+Differences from Decision Trees: Random forests reduce the risk of overfitting by averaging multiple decision trees, thus providing better generalization.
+Extra Resources
+Understanding KNN:
+Decision Trees Explained:
+Random Forests Guide:
+Final Thoughts
+Today’s algorithms are foundational tools in your machine learning toolkit. KNN, Decision Trees, and Random Forests each have unique strengths and weaknesses, making them suitable for different types of classification problems. Dive into the code, experiment with different parameters, and see firsthand how these algorithms perform on your datasets. Keep up the great work, and enjoy the process of learning and discovery!
+MediumMedium
+The K-Nearest Neighbors Algorithm, Explained in Simple Terms
+“Tell me who your neighbors are and I will tell you who you are.”
+Reading time
+6 min read
+Dec 10th, 2020 (176 kB)
+https://towardsdatascience.com/the-k-nearest-neighbors-algorithm-explained-in-simple-terms-ae22627a6f84
+
+Analytics VidhyaAnalytics Vidhya
+What is Decision Tree? [A Step-by-Step Guide]
+Master decision tree methodology in ML: grasp working principles, types, evaluation techniques, and optimization methods in our guide.
+Written by
+Anshul Saini
+Est. reading time
+18 minutes
+Aug 29th, 2021
+https://www.analyticsvidhya.com/blog/2021/08/decision-tree-algorithm/
+
+Built InBuilt In
+Random Forest: A Complete Guide for Machine Learning | Built In
+Random forest is a machine learning algorithm that combines multiple decision trees to create a singular, more accurate result. Here's what to know to be a random forest pro. (170 kB)
+https://builtin.com/data-science/random-forest-algorithm
+
+9:30
+@channel You've been making fantastic progress in understanding and applying various machine learning algorithms. Today, we’re going to focus on working with multiclass datasets and comparing the performance of different classification models. Let’s get ready to deepen our understanding and practical skills.
+Key Terminology
+Model-Fit-Predict Process:
+Model: Selecting an appropriate classification algorithm.
+Fit: Training the model on the dataset.
+Predict: Using the trained model to make predictions on new data.
+Multiclass Classification:
+Classification task involving more than two classes. Examples include classifying images of digits (0-9) or types of flowers.
+Model Evaluation Metrics:
+Accuracy: The proportion of correct predictions over the total number of predictions.
+Confusion Matrix: A table used to describe the performance of a classification model.
+Precision, Recall, F1-Score: Metrics to evaluate the performance of classification models, especially useful for imbalanced datasets.
+Applying the Model-Fit-Predict Process on Multiclass Datasets
+Load and Prepare Data:
+Use a well-known multiclass dataset like Iris or Digits from sklearn.datasets.
+Implement Multiple Models:
+Train models such as Logistic Regression, KNN, Decision Trees, and Random Forests on the dataset.
+Evaluate and compare their performance.
+Evaluate Model Performance:
+Use metrics such as accuracy, confusion matrix, precision, recall, and F1-score to compare models.
+Extra Resources
+Multiclass Classification Guide:
+Evaluating Multiclass Models:
+Final Thoughts
+Today, you’ll not only apply the model-fit-predict process to multiclass datasets but also analyze and compare the performance of different models. This will provide you with a comprehensive understanding of how different algorithms perform on the same data. Embrace the opportunity to experiment, evaluate, and learn from the results. Each step brings you closer to becoming a data science expert!
+MediumMedium
+A Comprehensive Guide to Multiclass Classification in Machine Learning
+Unlocking the Power of Multiclass Classification: Techniques, Implementation and Practical Insights.
+Reading time
+5 min read
+Dec 15th, 2023
+https://medium.com/@murpanironit/a-comprehensive-guide-to-multiclass-classification-in-machine-learning-c4f893e8161d
+
+MediumMedium
+Understanding Confusion Matrix
+When we get the data, after data cleaning, pre-processing, and wrangling, the first step we do is to feed it to an outstanding model and of course, get output in probabilities. But hold on! How in…
+Reading time
+4 min read
+Jun 14th, 2021
+https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
+
+
+
+Anthony Taylor
+  9:24 PM
+@channel You’ve been doing an outstanding job so far, and today we’re going to dive into some critical aspects of model development. By the end of today's class, you'll understand the importance of model validation, how to handle imbalanced data, select appropriate validation metrics, make informed decisions about target data, and identify and rectify overfitting. Let's get started!
+Key Terminology
+Model Validation:
+Importance: Ensures that your model generalizes well to unseen data, not just the training set.
+Techniques: Cross-validation, train-test split, and bootstrap sampling.
+Imbalanced Data:
+Identification: When one class significantly outnumbers the other classes in a classification problem.
+Rectification Methods: Resampling techniques (oversampling, undersampling), SMOTE (Synthetic Minority Over-sampling Technique), and adjusting class weights.
+Validation Metrics:
+Accuracy: The proportion of correct predictions. Not always reliable for imbalanced datasets.
+Precision and Recall: Precision measures the accuracy of positive predictions, while recall measures the ability to capture all positive instances.
+F1-Score: The harmonic mean of precision and recall, providing a balance between the two.
+ROC-AUC: Measures the model's ability to distinguish between classes.
+Target Data Selection:
+Impact of Decision: Choosing the right target variable is crucial as it directly affects the model’s performance and interpretation. Ensure the target is relevant and meaningful for the problem you're solving.
+Overfitting:
+Identification: When a model performs well on training data but poorly on validation/test data.
+Rectification Methods: Cross-validation, regularization (L1, L2), pruning (for trees), and reducing model complexity.
+Extra Resources
+Model Validation Techniques:
+Handling Imbalanced Data:
+Understanding Overfitting:
+Final Thoughts
+Today’s session is crucial for developing robust, reliable machine learning models. By mastering model validation, handling imbalanced data, selecting appropriate metrics, making informed target data decisions, and preventing overfitting, you’re setting yourself up for success in your machine learning journey. Dive into the exercises, experiment with different techniques, and understand the impact of each decision you make. Keep pushing forward and enjoy the learning process!
+DatatronDatatron
+What is Model Validation and Why is it Important? - Datatron
+We all have pursued enough articles about Machine Learning, and the first notion we often come up with is ‘Machine Learning is about making predictions.’ Yes, it is somewhat convincing, but these predictions come up after assorted processes like Data Preparation, Choosing a Model, Training the Model, Parameter Tuning, Model Validation, etc. So, only after […]
+Written by
+Datatron Technologies
+Est. reading time
+4 minutes
+Apr 30th, 2021 (168 kB)
+https://datatron.com/what-is-model-validation-and-why-is-it-important/
+
+kaggle.comkaggle.com
+Resampling strategies for imbalanced datasets
+Explore and run machine learning code with Kaggle Notebooks | Using data from Porto Seguro’s Safe Driver Prediction
+MachineLearningMastery.comMachineLearningMastery.com
+Overfitting and Underfitting With Machine Learning Algorithms - MachineLearningMastery.com
+The cause of poor performance in machine learning is either overfitting or underfitting the data. In this post, you will discover the concept of generalization in machine learning and the problems of overfitting and underfitting that go along with it. Let’s get started. Approximate a Target Function in Machine Learning Supervised machine learning is best understood as […]
+Written by
+Jason Brownlee
+Est. reading time
+7 minutes
+Mar 20th, 2016
+https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/
+
+
+
+Anthony Taylor
+  9:44 PM
+@channel Today's class is all about mastering the art of data preparation. By the end of today, you'll be equipped to handle data leakage, manage missing values, encode categorical data, and create streamlined preprocessing functions. Let’s dive in!
+Key Terminology
+Data Leakage:
+Recognition: Occurs when information from outside the training dataset is used to create the model, leading to overly optimistic performance estimates.
+Addressing: Ensure that all preprocessing steps are applied within cross-validation loops or after the train-test split.
+Handling Missing Values:
+Innovative Methods: Imputation techniques such as mean, median, mode imputation, KNN imputation, and using algorithms like Random Forest for missing value prediction.
+Encoding Strategies:
+Categorical Data: Transforming categorical variables into numerical formats that can be used by machine learning models.
+OneHotEncoder: Creates binary columns for each category.
+OrdinalEncoder: Assigns ordinal values to categories based on their order.
+Prevention of Data Leakage:
+Train-Test Split: Perform data splits before applying any preprocessing to avoid leakage.
+Cross-Validation: Ensure that data preprocessing is done within each fold of cross-validation.
+Preprocessing Functions:
+Streamline Data Preparation: Write reusable functions for common preprocessing tasks to ensure consistency and efficiency.
+Feature Engineering:
+Designing New Features: Create new features that can capture additional information from the data to improve model performance.
+Extra Resources
+Data Leakage:
+Handling Missing Values:
+Encoding Categorical Data:
+Final Thoughts
+Effective data preparation is the cornerstone of any successful machine learning project. By recognizing and addressing data leakage, handling missing values smartly, and encoding categorical data correctly, you're setting up your models for success. Building preprocessing functions and designing new features will streamline your workflow and improve your model’s performance. Keep experimenting, stay curious, and enjoy the process of transforming raw data into insights!
+kaggle.comkaggle.com
+Data Leakage
+Explore and run machine learning code with Kaggle Notebooks | Using data from multiple data sources
+kaggle.comkaggle.com
+Handling Missing Values
+Explore and run machine learning code with Kaggle Notebooks | Using data from multiple data sources
+MediumMedium
+Categorical Data Encoding Techniques
+Introduction:
+Reading time
+7 min read
+Mar 27th, 2023 (114 kB)
+https://medium.com/aiskunks/categorical-data-encoding-techniques-d6296697a40f
+
+
+
+Brett Payne
+  7:34 AM
+joined #03-resources.
+
+
+Anthony Taylor
+  9:01 PM
+@channel Today’s class is going to elevate your machine learning skills by diving into hyperparameter tuning, addressing class imbalance with resampling techniques, and applying these methods to real-world data. By the end of today, you’ll be able to fine-tune your models for optimal performance and handle imbalanced datasets effectively. Let’s jump in!
+Key Terminology
+Hyperparameter Tuning:
+Definition: The process of finding the optimal set of hyperparameters for a machine learning model.
+Techniques: Grid Search, Random Search, Bayesian Optimization.
+Resampling Techniques:
+Random Resampling:
+Oversampling: Increasing the number of instances in the minority class by duplicating them.
+Undersampling: Decreasing the number of instances in the majority class by removing some of them.
+Synthetic Resampling:
+SMOTE (Synthetic Minority Over-sampling Technique): Generates synthetic samples for the minority class.
+Applying Models to New Data:
+Definition: The process of using an already trained model to make predictions on new, unseen data.
+Extra Resources
+Hyperparameter Tuning:
+Handling Class Imbalance with SMOTE:
+Final Thoughts
+Hyperparameter tuning and resampling techniques are powerful tools that can significantly enhance your machine learning models' performance. By applying these methods to real-world datasets like bank marketing data, you’ll gain valuable insights and practical experience. Remember to maintain a consistent preprocessing workflow to avoid data leakage when applying models to new data. Keep experimenting and enjoy the process of fine-tuning your models to achieve the best possible outcomes!
+Analytics VidhyaAnalytics Vidhya
+A Comprehensive Guide on Hyperparameter Tuning and its Techniques
+Maximize the performance of your machine learning models with hyperparameter tuning techniques. Learn how to select the right set of hyperparameters. Read Now!
+Written by
+Shanthababu Pandian
+Est. reading time
+16 minutes
+Feb 21st, 2022
+https://www.analyticsvidhya.com/blog/2022/02/a-comprehensive-guide-on-hyperparameter-tuning-and-its-techniques/
+
+:+1:
+1
+:eyes:
+1
+
+
+
+
+
+
+
+
